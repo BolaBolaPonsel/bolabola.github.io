@@ -1,4 +1,5 @@
-/* Product Card Popup */
+/* POPUP PRODUCTS-CARD */
+
 .popup {
   z-index: 3;
   width: 100%;
@@ -97,37 +98,59 @@
   cursor: pointer;
 }
 
-/* reno75g */
-#popup-reno75g:target {
+/* POPUP TARGET */
+
+/* FINDX5PRO */
+#popup-findx5pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno75g:target .popup-content {
+#popup-findx5pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* reno7z5g */
-#popup-reno7z5g:target {
+/* RENO8 PRO */
+#popup-reno8pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno7z5g:target .popup-content {
+#popup-reno8pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* reno74g */
-#popup-reno74g:target {
+/* RENO8 */
+#popup-reno8:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno74g:target .popup-content {
+#popup-reno8:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a96 */
+/* RENO8 Z 5G */
+#popup-reno8z5g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-reno8z5g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* RENO8 4G */
+#popup-reno84g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-reno84g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A96 */
 #popup-a96:target {
   opacity: 1;
   visibility: visible;
@@ -137,37 +160,37 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a95 */
-#popup-a95:target {
+/* A77S */
+#popup-a77s:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a95:target .popup-content {
+#popup-a77s:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a76 */
-#popup-a76:target {
+/* A54 */
+#popup-a54:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a76:target .popup-content {
+#popup-a54:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a55 */
-#popup-a55:target {
+/* A575G */
+#popup-a575g:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a55:target .popup-content {
+#popup-a575g:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a16k */
+/* A16K */
 #popup-a16k:target {
   opacity: 1;
   visibility: visible;
@@ -177,12 +200,32 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* a16 */
+/* A17 */
+#popup-a17:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a17:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A16 */
 #popup-a16:target {
   opacity: 1;
   visibility: visible;
 }
 #popup-a16:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A16E */
+#popup-a16e:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a16e:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
