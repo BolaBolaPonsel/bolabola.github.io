@@ -1,4 +1,5 @@
-/* Product Card Popup */
+/* POPUP PRODUCTS-CARD */
+
 .popup {
   z-index: 3;
   width: 100%;
@@ -97,7 +98,19 @@
   cursor: pointer;
 }
 
-/* 9proplus */
+/* POPUP TARGET */
+
+/* GT NEO3 */
+#popup-gtneo3:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-gtneo3:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* 9PRO PLUS */
 #popup-9proplus:target {
   opacity: 1;
   visibility: visible;
@@ -107,47 +120,37 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* 9pro */
-#popup-9pro:target {
+/* GT NEO 3T */
+#popup-gtneo3t:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-9pro:target .popup-content {
+#popup-gtneo3t:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* me9 */
-#popup-me9:target {
+/* 9 4G */
+#popup-94g:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-me9:target .popup-content {
+#popup-94g:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* me8 */
-#popup-me8:target {
+/* 9i */
+#popup-9i:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-me8:target .popup-content {
+#popup-9i:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* 8i */
-#popup-8i:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-8i:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* c35 */
+/* C35 */
 #popup-c35:target {
   opacity: 1;
   visibility: visible;
@@ -157,32 +160,22 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* c31 */
-#popup-c31:target {
+/* C33 */
+#popup-c33:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-c31:target .popup-content {
+#popup-c33:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* c21y */
-#popup-c112021:target {
+/* C30 */
+#popup-c30:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-c112021:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* c11 */
-#popup-c11:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-c11:target .popup-content {
+#popup-c30:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
