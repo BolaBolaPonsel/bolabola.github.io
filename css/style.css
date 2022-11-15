@@ -334,19 +334,9 @@ a {
   justify-content: center;
 }
 
-#products .section-title {
-  font-size: 2rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  text-align: center;
-}
-
 #products .products-top h1 {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 25px;
   line-height: 2.5rem;
   font-weight: 300;
