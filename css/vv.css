@@ -77,155 +77,177 @@
 }
 
 .popup .btn {
-  width: 100%;
-  padding-bottom: 20px;
+  width: 103px;
 }
 
-.popup .btn button {
-  padding: 3px 9px;
-  background: none;
-  background-color: rgb(0, 137, 161);
-  border: 1px solid gray;
-  outline: none;
-  color: white;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 2px;
+.popup .btn-primary {
+  background-color: #02a5d6;
+  border-color: #02a5d6;
+  font-size: 15px;
 }
 
-.popup .btn button:hover {
-  background-color: rgb(141, 0, 94);
-  cursor: pointer;
+.popup .btn-primary:hover {
+  background-color: #0192be;
 }
+
+/* .popup .btn { */
+/* width: 100%; */
+/* padding-bottom: 20px; */
+/* } */
+
+/* .popup .btn button { */
+/* padding: 3px 9px; */
+/* background: none; */
+/* background-color: rgb(0, 137, 161); */
+/* border: 1px solid gray; */
+/* outline: none; */
+/* color: white; */
+/* cursor: pointer; */
+/* font-size: 20px; */
+/* border-radius: 2px; */
+/* } */
+
+/* .popup .btn button:hover { */
+/* background-color: rgb(141, 0, 94); */
+/* cursor: pointer; */
+/* } */
 
 /* POPUP TARGET */
 
-/* FINDX5PRO */
-#popup-findx5pro:target {
+/* X80PRO */
+#popup-x80pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-findx5pro:target .popup-content {
+#popup-x80pro:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+/* X80 */
+#popup-x80:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-x80:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* RENO8 PRO */
-#popup-reno8pro:target {
+/* V25PRO */
+#popup-v25pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno8pro:target .popup-content {
+#popup-v25pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* RENO8 */
-#popup-reno8:target {
+/* V25 */
+#popup-v25:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno8:target .popup-content {
+#popup-v25:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* RENO8 Z 5G */
-#popup-reno8z5g:target {
+/* V235G */
+#popup-v235g:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno8z5g:target .popup-content {
+#popup-v235g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+/* T15G */
+#popup-t15g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-t15g:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* RENO8 4G */
-#popup-reno84g:target {
+/* V23e */
+#popup-v23e:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-reno84g:target .popup-content {
+#popup-v23e:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A96 */
-#popup-a96:target {
+/* Y35 */
+#popup-y35:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a96:target .popup-content {
+#popup-y35:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A77S */
-#popup-a77s:target {
+/* Y21S */
+#popup-y21s:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a77s:target .popup-content {
+#popup-y21s:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A54 */
-#popup-a54:target {
+/* Y22 */
+#popup-y22:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a54:target .popup-content {
+#popup-y22:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A575G */
-#popup-a575g:target {
+/* Y21A */
+#popup-y21a:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a575g:target .popup-content {
+#popup-y21a:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A16K */
-#popup-a16k:target {
+/* Y15S */
+#popup-y15s:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a16k:target .popup-content {
+#popup-y15s:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A17 */
-#popup-a17:target {
+/* Y16 */
+#popup-y16:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a17:target .popup-content {
+#popup-y16:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* A16 */
-#popup-a16:target {
+/* Y01 */
+#popup-y01:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-a16:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* A16E */
-#popup-a16e:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-a16e:target .popup-content {
+#popup-y01:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }

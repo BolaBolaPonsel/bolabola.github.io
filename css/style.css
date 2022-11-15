@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 
 * {
-  font-family: "Play", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 html {
@@ -344,14 +344,10 @@ a {
   text-align: center;
 }
 
-#products .section-title span {
-  color: crimson;
-}
-
-#products .products-top p {
+#products .products-top h1 {
   color: black;
-  font-size: 1.2rem;
-  margin-top: 5px;
+  font-size: 1.5rem;
+  margin-top: 25px;
   line-height: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
@@ -381,18 +377,19 @@ a {
 }
 
 .product-card .card h1 {
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 17px;
   margin-bottom: 16px;
 }
 
 .product-card #price-1 {
   padding-top: 8px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .product-card #price-2 {
   padding-bottom: 8px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .product-card .card .product-image {
@@ -415,26 +412,40 @@ a {
 }
 
 .product-card .card .btn {
-  width: 100%;
+  width: 103px;
 }
 
-.product-card .card .btn {
-  padding: 3px 9px;
-  background: none;
-  background-color: rgb(0, 137, 161);
-  border: 1px solid gray;
-  outline: none;
-  color: white;
-  cursor: pointer;
+.product-card .card .btn-primary {
+  background-color: #02a5d6;
+  border-color: #02a5d6;
   font-size: 15px;
-  border-radius: 2px;
 }
 
-.product-card .card .btn:hover {
-  background-color: rgb(141, 0, 94);
-  cursor: pointer;
-  color: white;
+.product-card .card .btn-primary:hover {
+  background-color: #0192be;
 }
+
+/* .product-card .card .btn { */
+/* width: 100%; */
+/* } */
+
+/* .product-card .card .btn { */
+/* padding: 3px 9px; */
+/* background: none; */
+/* background-color: rgb(9, 142, 182); */
+/* border: 1px solid gray; */
+/* outline: none; */
+/* color: white; */
+/* cursor: pointer; */
+/* font-size: 15px; */
+/* border-radius: 2px; */
+/* } */
+
+/* .product-card .card .btn:hover { */
+/* background-color: rgb(6, 107, 153); */
+/* cursor: pointer; */
+/* color: white; */
+/* } */
 
 /* CONTACT */
 

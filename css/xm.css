@@ -1,5 +1,4 @@
-/* POPUP PRODUCTS-CARD */
-
+/* POPUP PRODUCT-CARD */
 .popup {
   z-index: 3;
   width: 100%;
@@ -77,163 +76,119 @@
 }
 
 .popup .btn {
-  width: 100%;
-  padding-bottom: 20px;
+  width: 103px;
 }
 
-.popup .btn button {
-  padding: 3px 9px;
-  background: none;
-  background-color: rgb(0, 137, 161);
-  border: 1px solid gray;
-  outline: none;
-  color: white;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 2px;
+.popup .btn-primary {
+  background-color: #02a5d6;
+  border-color: #02a5d6;
+  font-size: 15px;
 }
 
-.popup .btn button:hover {
-  background-color: rgb(141, 0, 94);
-  cursor: pointer;
+.popup .btn-primary:hover {
+  background-color: #0192be;
 }
 
-/* POPUP TARGET */
+/* .popup .btn { */
+/* width: 100%; */
+/* padding-bottom: 20px; */
+/* } */
 
-/* X80PRO */
-#popup-x80pro:target {
+/* .popup .btn button { */
+/* padding: 3px 9px; */
+/* background: none; */
+/* background-color: rgb(0, 137, 161); */
+/* border: 1px solid gray; */
+/* outline: none; */
+/* color: white; */
+/* cursor: pointer; */
+/* font-size: 20px; */
+/* border-radius: 2px; */
+/* } */
+
+/* .popup .btn button:hover { */
+/* background-color: rgb(141, 0, 94); */
+/* cursor: pointer; */
+/* } */
+
+/* POPUP-TERGET */
+
+/* MI12PRO */
+#popup-mi12pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-x80pro:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-/* X80 */
-#popup-x80:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-x80:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* V25PRO */
-#popup-v25pro:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-v25pro:target .popup-content {
+#popup-mi12pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* V25 */
-#popup-v25:target {
+/* MI12 */
+#popup-mi12:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-v25:target .popup-content {
+#popup-mi12:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* V235G */
-#popup-v235g:target {
+/* MI11PRO */
+#popup-mi11tpro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-v235g:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-/* T15G */
-#popup-t15g:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-t15g:target .popup-content {
+#popup-mi11tpro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* V23e */
-#popup-v23e:target {
+/* MI11T */
+#popup-mi11t:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-v23e:target .popup-content {
+#popup-mi11t:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* Y35 */
-#popup-y35:target {
+/* NOTE11PRO */
+#popup-note11pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-y35:target .popup-content {
+#popup-note11pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* Y21S */
-#popup-y21s:target {
+/* NOTE11 */
+#popup-note11:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-y21s:target .popup-content {
+#popup-note11:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* Y22 */
-#popup-y22:target {
+/* MI10PRIME */
+#popup-mi10prime:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-y22:target .popup-content {
+#popup-mi10prime:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* Y21A */
-#popup-y21a:target {
+/* 9C */
+#popup-9c:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-y21a:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* Y15S */
-#popup-y15s:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-y15s:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* Y16 */
-#popup-y16:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-y16:target .popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* Y01 */
-#popup-y01:target {
-  opacity: 1;
-  visibility: visible;
-}
-#popup-y01:target .popup-content {
+#popup-9c:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }

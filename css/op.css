@@ -77,105 +77,169 @@
 }
 
 .popup .btn {
-  width: 100%;
-  padding-bottom: 20px;
+  width: 103px;
 }
 
-.popup .btn button {
-  padding: 3px 9px;
-  background: none;
-  background-color: rgb(0, 137, 161);
-  border: 1px solid gray;
-  outline: none;
-  color: white;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 2px;
+.popup .btn-primary {
+  background-color: #02a5d6;
+  border-color: #02a5d6;
+  font-size: 15px;
 }
 
-.popup .btn button:hover {
-  background-color: rgb(141, 0, 94);
-  cursor: pointer;
+.popup .btn-primary:hover {
+  background-color: #0192be;
 }
+
+/* .popup .btn { */
+/* width: 100%; */
+/* padding-bottom: 20px; */
+/* } */
+
+/* .popup .btn button { */
+/* padding: 3px 9px; */
+/* background: none; */
+/* background-color: rgb(0, 137, 161); */
+/* border: 1px solid gray; */
+/* outline: none; */
+/* color: white; */
+/* cursor: pointer; */
+/* font-size: 20px; */
+/* border-radius: 2px; */
+/* } */
+
+/* .popup .btn button:hover { */
+/* background-color: rgb(141, 0, 94); */
+/* cursor: pointer; */
+/* } */
 
 /* POPUP TARGET */
 
-/* GT NEO3 */
-#popup-gtneo3:target {
+/* FINDX5PRO */
+#popup-findx5pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-gtneo3:target .popup-content {
+#popup-findx5pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* 9PRO PLUS */
-#popup-9proplus:target {
+/* RENO8 PRO */
+#popup-reno8pro:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-9proplus:target .popup-content {
+#popup-reno8pro:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* GT NEO 3T */
-#popup-gtneo3t:target {
+/* RENO8 */
+#popup-reno8:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-gtneo3t:target .popup-content {
+#popup-reno8:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* 9 4G */
-#popup-94g:target {
+/* RENO8 Z 5G */
+#popup-reno8z5g:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-94g:target .popup-content {
+#popup-reno8z5g:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* 9i */
-#popup-9i:target {
+/* RENO8 4G */
+#popup-reno84g:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-9i:target .popup-content {
+#popup-reno84g:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* C35 */
-#popup-c35:target {
+/* A96 */
+#popup-a96:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-c35:target .popup-content {
+#popup-a96:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* C33 */
-#popup-c33:target {
+/* A77S */
+#popup-a77s:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-c33:target .popup-content {
+#popup-a77s:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* C30 */
-#popup-c30:target {
+/* A54 */
+#popup-a54:target {
   opacity: 1;
   visibility: visible;
 }
-#popup-c30:target .popup-content {
+#popup-a54:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A575G */
+#popup-a575g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a575g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A16K */
+#popup-a16k:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a16k:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A17 */
+#popup-a17:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a17:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A16 */
+#popup-a16:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a16:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* A16E */
+#popup-a16e:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a16e:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
