@@ -48,6 +48,14 @@ a {
   padding: 0 10px;
 }
 
+#header .brand a i {
+  color: white;
+}
+
+#header .brand a i:hover {
+  color: #02a5d6;
+}
+
 #header .nav-list ul {
   list-style: none;
   position: absolute;
@@ -99,7 +107,7 @@ a {
 }
 
 #header .nav-list ul li:hover a {
-  color: crimson;
+  color: #02a5d6;
 }
 
 #header .hamburger {
