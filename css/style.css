@@ -111,8 +111,8 @@ a {
 }
 
 #header .hamburger {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   display: inline-block;
   border: 3px solid white;
   border-radius: 50%;
@@ -208,7 +208,7 @@ a {
 
 #wrapper .container {
   min-height: 50vh;
-  width: 150%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,7 +244,7 @@ a {
 #wrapper h1 {
   display: block;
   width: fit-content;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   position: relative;
   color: transparent;
   animation: text_reveal 0.5s ease forwards;
