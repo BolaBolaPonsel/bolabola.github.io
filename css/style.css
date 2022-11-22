@@ -34,7 +34,7 @@ a {
 #header .header {
   min-height: 8vh;
   min-width: 100vw;
-  background-color: rgba(31, 30, 30, 0.24);
+  /* background-color: rgba(31, 30, 30, 0.24); */
   transition: 0.3s ease background-color;
 }
 
