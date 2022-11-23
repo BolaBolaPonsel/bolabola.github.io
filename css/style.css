@@ -375,7 +375,7 @@ a {
 }
 
 .product-card .card h1 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 16px;
   margin-bottom: 16px;
 }
@@ -412,12 +412,29 @@ a {
 
 .product-card .card .card-link {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .product-card .card .card-link:hover {
   text-decoration: underline;
 }
+
+.product-card .card .btn {
+  width: 100px;
+}
+
+.product-card .card .btn-outline-primary {
+  border-color: #02a5d6;
+  font-size: 12px;
+  color: #02a5d6;
+}
+
+.product-card .card .btn-outline-primary:hover {
+  background-color: #0192be;
+  color: #fff;
+}
+
+/* FOOTER */
 
 #footer .footer {
   text-decoration: none;
@@ -425,20 +442,6 @@ a {
 
 #footer .footer:hover {
   text-decoration: underline;
-}
-
-/*.product-card .card .btn {
-  width: 103px;
-}
-
-.product-card .card .btn-primary {
-  background-color: #02a5d6;
-  border-color: #02a5d6;
-  font-size: 15px;
-}
-
-.product-card .card .btn-primary:hover {
-  background-color: #0192be;
 }
 
 /* .product-card .card .btn { */
