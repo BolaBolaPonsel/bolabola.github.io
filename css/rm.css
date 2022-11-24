@@ -57,12 +57,26 @@
 
 .popup .table .text-1 {
   text-align: center;
+  color: rgb(221, 12, 12);
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 11.5px;
+}
+
+.popup .table span {
+  font-weight: bolder;
+  color: rgb(61, 58, 58);
+}
+
+.popup .table td {
+  font-size: 13px;
 }
 
 .popup-header h1 {
   font-size: 15px;
   margin-bottom: 20px;
   font-weight: bold;
+  color: black;
 }
 
 .popup-header .row .col-4 {
