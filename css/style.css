@@ -340,12 +340,13 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
+  justify-items: center;
 }
 
-#products .products-top img {
-  width: 100px;
-  display: block;
-  position: relative;
+#products .btn {
+  width: 150px;
+  font-weight: bolder;
+  color: #444;
 }
 
 /* PRODUCTS CARD */
