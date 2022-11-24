@@ -55,8 +55,8 @@
 }
 
 .popup .table .text-1 {
-  text-align: start;
-  color: #fc4563;
+  text-align: center;
+  color: rgb(221, 12, 12);
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 11.5px;
@@ -64,7 +64,7 @@
 
 .popup .table span {
   font-weight: bolder;
-  color: rgb(121, 115, 115);
+  color: rgb(61, 58, 58);
 }
 
 .popup .table td {
