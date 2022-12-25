@@ -413,7 +413,75 @@ a {
   text-decoration: underline;
 }
 
-.product-card .card .btn {
+/* BTN NEW */
+button {
+  background-color: rgb(82, 163, 255);
+  color: transparent;
+  border: 0 none;
+  /* padding: 15px 30px; */
+  padding: 7px 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 300ms ease, color 300ms ease;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button::before {
+  content: attr(data-text);
+  display: inline-block;
+  position: absolute;
+  transition: all 300ms ease;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  color: white;
+}
+
+button::after {
+  content: attr(data-label);
+  display: inline-block;
+  position: absolute;
+  transition: all 300ms ease;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  color: white;
+}
+
+button::before {
+  opacity: 0;
+  transform: translateY(calc(-50% - 15px));
+}
+
+button::after {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+button:hover {
+  background-color: rgb(66, 133, 209);
+}
+
+button:hover::before {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+button:hover::after {
+  opacity: 0;
+  transform: translateY(calc(-50% + 15px));
+}
+
+button:active {
+  background-color: rgb(82, 163, 255);
+}
+
+/* BTN LAMA */
+/* .product-card .card .btn {
   width: 110px;
 }
 
@@ -426,7 +494,7 @@ a {
 .product-card .card .btn-outline-primary:hover {
   background-color: #0192be;
   color: #fff;
-}
+} */
 
 /* FOOTER */
 

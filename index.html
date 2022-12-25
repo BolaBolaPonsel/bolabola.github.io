@@ -33,7 +33,78 @@
         justify-content: center;
       }
 
-      .btn-outline-primary {
+      .btn {
+        padding: 0.9em 1.6em;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 17px;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 12px;
+      }
+
+      .btn::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(46, 46, 46);
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+      /* glow */
+      .btn::before {
+        content: "";
+        background: linear-gradient(45deg, #ff0000, #002bff, #ff00c8, #002bff, #ff0000, #002bff, #ff00c8, #002bff);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 600%;
+        z-index: -1;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+        transition: opacity 0.3s ease-in-out;
+        border-radius: 10px;
+        opacity: 0;
+      }
+
+      @keyframes glowing {
+        0% {
+          background-position: 0 0;
+        }
+
+        50% {
+          background-position: 400% 0;
+        }
+
+        100% {
+          background-position: 0 0;
+        }
+      }
+
+      /* hover */
+      .btn:hover::before {
+        opacity: 1;
+      }
+
+      .btn:active:after {
+        background: transparent;
+      }
+
+      .btn:active {
+        color: #000;
+        font-weight: bold;
+      }
+
+      /* .btn-outline-primary {
         border-color: #02a5d6;
         color: #02a5d6;
       }
@@ -42,11 +113,11 @@
         border-color: #02a5d6;
         background: #02a5d6;
         color: #fff;
-      }
+      } */
 
       .btn {
         margin-top: 5px;
-        width: 150px;
+        width: 180px;
       }
     </style>
   </head>
@@ -67,7 +138,7 @@
 
         <a href="/src/assets/xiaomi.html" class="btn btn-outline-primary"><i class="fa-solid fa-mobile-screen-button"></i>&ensp;XIAOMI</a>
 
-        <a href="/src/assets/pricing.html" class="btn btn-outline-warning"><i class="fa-solid fa-mobile-screen-button"></i>&ensp;ALL BRANDS</a>
+        <a href="/src/assets/pricing.html" class="btn btn-outline-primary"><i class="fa-solid fa-mobile-screen-button"></i>&ensp;ALL BRANDS</a>
       </div>
     </section>
 
